@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    #productFeild , #productQuantity , button{
+        height: 45px;
+        border-radius: 12px;
+        padding: 5px;
+        width: 285px;
+        color: lime;
+        font-size: 18px;
+        background-color: darkcyan;
+        color: white;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koro shopping</title>
+</head>
+<body>
+<section>
+    <header>
+        <h2 style="text-align:center ;"> Shopping With Mad Pad </h2>
+    </header>
+    <main>
+       <div style="text-align: center ;">
+        <input type="text" id="productFeild" placeholder="Enter your product name"/> <br><br>
+        <input type="number" id="productQuantity" placeholder="Ente your product qantity"/><br><br>
+        <button onclick="BuyProduct()"> Buy Product </button>
+       </div> 
+       <br><br>
+       <h2 style="text-align:center ;"> Product list </h2> 
+       <ul id="productList">
+
+       </ul>
+    </main>
+</section>
+ <script src="shoppinmoal.js"></script>   
+</body>
+</html>
